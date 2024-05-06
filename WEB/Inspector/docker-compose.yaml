@@ -1,0 +1,40 @@
+version: "3"
+
+
+services:
+  
+  easy:
+    container_name: Ez
+    image: q1_i
+    build: .
+    ports:
+      - 8030:80
+    restart: always
+
+    volumes:
+      - ./src:/var/www/html
+    environment:
+      - MYSQL_DATABASE=nothing_db
+      - MYSQL_USER=nothing
+      - MYSQL_PASSWORD=toor123!
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
+
+  db:
+    image: mysql
+    hostname: sqldb
+    environment:
+      - MYSQL_DATABASE=nothing_db
+      - MYSQL_USER=nothing
+      - MYSQL_PASSWORD=toor123!
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
+    volumes:
+      - "./db:/docker-entrypoint-initdb.d" # sync persistent sql files with container
+
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 6223:80
+    environment:
+      - PMA_HOST=db
+      - PMA_PORT=3306
