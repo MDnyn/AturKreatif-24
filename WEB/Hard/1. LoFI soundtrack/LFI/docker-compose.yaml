@@ -1,0 +1,15 @@
+version: "3"
+
+
+services:
+  
+  lfi:
+    container_name: LoFI-soundtrack
+    image: lofi-soundtrack
+    build: .
+    ports:
+      - 8020:80
+    restart: always
+
+    volumes:
+      - ./src:/var/www/html

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# tch, take it lahhh Part 4: _I'm_doing}
+

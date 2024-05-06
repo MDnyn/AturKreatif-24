@@ -1,0 +1,15 @@
+version: "3"
+
+
+services:
+  
+  nothing:
+    container_name: JaWs-The-II
+    build: .
+    ports:
+      - 8007:80
+    restart: always
+
+    volumes:
+      - ./src:/var/www/html
+
