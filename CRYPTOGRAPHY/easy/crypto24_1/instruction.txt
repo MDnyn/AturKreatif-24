@@ -1,0 +1,4 @@
+You've stumbled upon a file named "passwords.txt" on an abandoned server. Upon inspection, you find it contains encrypted passwords. Can you decipher the encryption and unveil the secrets hidden within?
+
+question:What is the original password hidden within "passwords.txt"?
+

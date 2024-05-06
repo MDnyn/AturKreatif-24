@@ -1,0 +1,7 @@
+
+title : AESy Image Riddle
+
+Can you help me retrieve my image? The image is stored in a PNG file, but it's encrypted using AES encryption. There's a Python file that serves as a tool for image encryption and decryption. You can experiment with the tools, but your task is to help me decrypt the image. AES encryption requires a key for decryption, which is the same key used during encryption. Unfortunately, I can't remember the password. I've tried using the provided password, but it still won't decrypt. Can you help me crack the password and decrypt the image for me?"
+
+Tool: CryptImageTool.py
+Password: c04d6e34aab689c5c0e68eb51753c843e032efa7c16427f8642ee07ab946e981
