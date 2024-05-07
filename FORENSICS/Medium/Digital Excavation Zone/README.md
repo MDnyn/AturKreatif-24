@@ -1,6 +1,6 @@
 ***
 
-## *Insight Inquest *
+## *Digital Excavation Zone*
 
 ***
 1. Search suspicious folder. In this folder, the flag is divided into 4 parts. 
