@@ -1,0 +1,16 @@
+version: "3"
+
+
+services:
+  
+  nothing:
+    container_name: head-scracth
+    image: head-i
+    build: .
+    ports:
+      - 8050:80
+    restart: always
+
+    volumes:
+      - ./src:/var/www/html
+
