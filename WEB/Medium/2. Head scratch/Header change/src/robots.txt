@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /
-
-# --part4
-# Im sure you will never find the last part wkwkwwkw
