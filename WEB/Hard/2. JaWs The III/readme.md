@@ -16,5 +16,7 @@ run in kali
 
 john .txt --wordlist=rockyou.txt --format=HMAC-SHa256
 
+if cannot delete rm ~/.john/john.pot                                                    
+
 the password is
 wompwomp
