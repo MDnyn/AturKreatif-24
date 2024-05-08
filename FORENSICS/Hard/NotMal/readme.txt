@@ -1,3 +1,5 @@
+The security analyst found that this file is malicious. Please noted to use a safe environment to conduct the analysis.
+
 #01
 what is the flag found?
 4turkr34tif24{flag}
