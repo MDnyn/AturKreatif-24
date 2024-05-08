@@ -43,7 +43,7 @@ if(isset($_COOKIE['JWT'])) {
               <img src="logo.png" alt="Logo" style="width: 12%;">
                 </div>
                 <div class="w3-display-middle">
-            <h2 class="w3-big w3-animate-top" style="text-align: center; color: white;"><div class=text-center>elcome admin! Here is the flag: </br> 4turkr34tif24{j4ws_4t_univ3rs4l_studi0_j4p4n_w4s_4m4zing}</h2>
+            <h2 class="w3-big w3-animate-top" style="text-align: center; color: white;"><div class=text-center>Welcome admin! Here is the flag: </br> 4turkr34tif24{j4ws_4t_univ3rs4l_studi0_j4p4n_w4s_4m4zing}</h2>
             <hr class="w3-border-black" style="margin:auto;width:100%">
         </div>
                 <div class="w3-display-bottomleft w3-padding-large">
