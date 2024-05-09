@@ -1,16 +1,0 @@
-title: Unlocking Symmetric Encryption Secrets
-
-You've intercepted a message encrypted with a symmetric encryption algorithm. Your task is to decrypt the message and find the hidden flag.
-
-Encrypted Message:
-
-Salted__Éèâ‹ìÎAXñßk¡¦¯¡òX3TXYÃ¤µ2p)üLDMv>â°·ãF‹ÑfúS:³1ÑŽ“
-
-The encryption was performed using a common cryptographic tool with AES encryption in CBC mode and a known passphrase. Determine the role of the privatekey.pem file. Does it aid in decrypting the message, or does it serve another purpose? Investigate its function to understand its relevance to decrypting the encrypted message.
-
-Important: Ensure that you use the correct passphrase to decrypt the message. The encrypted message utilizes symmetric encryption, meaning it requires the same passphrase used during encryption.
-
-
-
-
-
