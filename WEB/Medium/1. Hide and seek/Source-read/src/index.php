@@ -30,7 +30,7 @@
         </div>
         <!-- ok fine you find the first part: 4turkr34tif24{Tbh -->
         <div class="w3-display-bottomleft w3-padding-large">
-        Made by NetbyteSec Sdn. Bhd. </a>
+        Made by Mdnyn </a>
       </div>
   </div>
   <script src="script.js"></script>
