@@ -47,7 +47,7 @@ if(isset($_COOKIE['JWT'])) {
             <hr class="w3-border-black" style="margin:auto;width:100%">
         </div>
                 <div class="w3-display-bottomleft w3-padding-large">
-                <a style="color: white;">Made by NetbyteSec Sdn. Bhd.</a>
+                <a style="color: white;">Made by Mdnyn</a>
               </div>
           </div>
           <script src="script.js"></script>
@@ -87,7 +87,7 @@ if(isset($_COOKIE['JWT'])) {
             <hr class="w3-border-black" style="margin:auto;width:100%">
         </div>
                 <div class="w3-display-bottomleft w3-padding-large">
-                <a style="color: white;">Made by NetbyteSec Sdn. Bhd.</a>
+                <a style="color: white;">Made by MDnyn</a>
               </div>
           </div>
           <script src="script.js"></script>

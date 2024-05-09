@@ -105,7 +105,7 @@ p {line-height: 2}
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Created by NetbyteSec Sdn. Bhd. </a></p>
+  <p>Created by MDnyn </a></p>
 </footer>
 <div class="w3-hide-small" style="margin-bottom:32px"> </div>
 
