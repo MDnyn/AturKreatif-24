@@ -1,0 +1,25 @@
+title: Salted Conundrum
+
+You've intercepted a file encrypted with a symmetric encryption algorithm. Your task is to decrypt the message and find the hidden flag.
+
+Salted.txt contains:
+
+Salted__£íÉ\äìõ¢œ1”'«VsRo
+°(ƒÀ‚z5ðy§Àx…¯í9+ëöv·GÌ4Üê/‰¼
+
+The encryption was performed using a common cryptographic tool with AES encryption in CBC mode and a known passphrase.
+
+Passphrase=
+Nf/FF1Yx+EL4mAsVVd8CG6fPkS7avYVrufv8MN8AGmO/JkTqv0CA0uYt9wzYx3W0wHc6+AS2jmVt
+ZUrRLyFi8yZjazxAoMJA701uXM6X9x4/MZWm5TbFsteSttzkPBOfaEs1K08YKuv3H+LrzB1Il9gS
+UUru4cfw/k4wvV2sIZ9atsgf1k4h5vIcVmrwDVlYjKGz2vEJAMMLB+33pfXrHIGm/SGqI8SZqRgW
+2Q4CV9cHaMzVfe+I/L7OKCRtgawVh37pjadND0UI81GAZCbUaFP7/xyhH45oZHFLqqaEMMyI07KV
+szsJ0iD8A5aR5lkrdZ2TjtSM21z1zoZcB6gjaw==
+                                           
+Important!! make sure to use the right passphrase..
+
+
+
+
+
+
