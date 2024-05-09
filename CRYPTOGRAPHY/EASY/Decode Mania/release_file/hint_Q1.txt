@@ -1,3 +1,0 @@
-hint1: Crack the layers of encryption one by one, starting with the outermost. Pay close attention to the characteristics of each encryption method, and remember to decode systematically.
-
-hint2: have you heard about rot13?
