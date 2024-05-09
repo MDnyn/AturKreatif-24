@@ -137,7 +137,7 @@ if(isset($_COOKIE['JWT'])) {
         </p>   
     </div>
             <div class="w3-display-bottomleft w3-padding-large">
-            <a style="color: white;">Made by NetbyteSec Sdn. Bhd.</a>
+            <a style="color: white;">Made by MDnyn</a>
           </div>
       </div>
       <script src="script.js"></script>
