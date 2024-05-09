@@ -1,5 +1,0 @@
-title: Certifi-Guess
-
-You have intercepted a server certificate (server.crt) from a suspicious server. Your task is to decrypt the certificate and retrieve two hidden flag which are flag1 and flag2.
-
-Server.key associated with the certificate (server.crt) can be used to establish a secure connection (e.g., SSL/TLS) and sign any documents.
