@@ -43,9 +43,9 @@ CREATE TABLE IF NOT EXISTS `login` (
 --
 
 INSERT INTO `login` (`id`, `username`, `password`, `email`) VALUES
-(100920001, 'budakk123', '1234567', 'budakk123@gmail.com'),
-(100920002, 'admin', '@d0ntbrut3', '4turkr34tif24{B451C5QL_1nj3ct10n}'),
-(100920003, 'user', 'user123', 'user123@gmail.com');
+(100920001, 'budakk123', '1nadwnwdnklwandn2', 'budakk123@gmail.com'),
+(100920002, 'admin', '@d0ntbrut3', 'admin_hensem123@kacak.com}'),
+(100920003, 'user1234', 'asnnsadonidnawd', 'user123@gmail.com');
 
 
 -- --------------------------------------------------------
