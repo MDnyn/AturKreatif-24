@@ -1,4 +1,0 @@
-Cryptography
-title: XORacle
-
-TokAba company has been hacked. During the investigation, I found a script "SQBuAHYAbwBrAGUALQBFAHgAcAByAGUAcwBzAGkAbwBuACAAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4ARABvAHcAbgBsAG8AYQBkAFMAdAByAGkAbgBnACgAIgBoAHQAdABwAHMAOgAvAC8AcABhAHMAdABlAGIAaQBuAC4AYwBvAG0ALwByAGEAdwAvAHIAQQA5AHoAdgBqADUAdQAiACkADQAKAA" please help me solve this.
