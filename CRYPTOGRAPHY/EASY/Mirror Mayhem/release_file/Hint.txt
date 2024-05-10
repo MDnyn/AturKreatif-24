@@ -1,3 +1,0 @@
-Hint1: single key is used to both lock and unlock a box containing valuable items
-Hint2: the flag is encrypted using a symmetric encryption algorithm.
-Hint3: Ever heard of Fernet? 
