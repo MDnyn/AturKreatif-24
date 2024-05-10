@@ -1,3 +1,5 @@
+Scenario: Within the enchanting melodies of "Siti Nurhaliza: Cinta Di Awan" concert recordings lies a hidden treasure. Your task: analyze the audio tracks to uncover fragmented parts of the flag and decode the concealed message.
+
 ***
 
 ## *Digital Excavation Zone*
