@@ -7,6 +7,8 @@ Check for `POST` method and inspect it or simply `Analyze > Follow > HTTP Stream
 
 You will found the username and password which is the flag.
 
+Flag is `4turkr34tif24{admin+password}`.
+
 
 # 2. VerySusPicture
 Provided 2 image files, one is png and the other one is jpeg. Note that steghide only can embed into JPEG, BMP, WAV, and AU (Source: Trust me bro - ChatGPT).
@@ -37,3 +39,5 @@ Then, `cd _index.zip.extracted` and `zip2john 0.zip > hash.txt`. Next, use `john
 Last step, run it :)  
 
  PS: This is malware analysis so make sure to turn off real-time protection in `Windows Security > Virus & Threat Protection Settings > Manage Settings > Turn off Real-time Protection` first before running the .exe if you are doing dynamic analysis.
+
+Flag is `4turkr34tif24{my_1st_malware}`.
