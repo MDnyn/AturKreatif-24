@@ -1,3 +1,5 @@
+Scenario: You are forbidden to reveal the secret ingredient of the cookies.
+
 ***
 
 ## *Cookie Crumble*
