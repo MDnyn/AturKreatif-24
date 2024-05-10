@@ -3,12 +3,12 @@ version: "3"
 
 services:
   
-  DrInject:
-    container_name: dr-inject
-    image: dr-i
+  basic_sql:
+    container_name: basic_sql
+    image: b_sql
     build: .
     ports:
-      - 8013:80
+      - 8100:80
     restart: always
 
     volumes:
