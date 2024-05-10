@@ -3,12 +3,12 @@ version: "3"
 
 services:
   
-  AK24:
-    container_name: sqli-filtered
-    image: sqli-f
+  sql_filtered:
+    container_name: sqli-f
+    image: sqli-fi
     build: .
     ports:
-      - 8011:80
+      - 8101:80
     restart: always
 
     volumes:
@@ -33,4 +33,4 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:
-      - 6445:80
+      - 6405:80

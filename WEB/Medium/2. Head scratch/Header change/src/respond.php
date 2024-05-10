@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'HEAD') {
-header("HINT: $3cr3+.php , password = saveme");
+header("HINT: 3l0p3.php , password = saveme");
 }
 // Handle GET and POST methods as before
 elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
