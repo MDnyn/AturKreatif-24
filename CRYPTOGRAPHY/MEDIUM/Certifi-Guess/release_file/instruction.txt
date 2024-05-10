@@ -1,4 +1,0 @@
-title: Certifi-Guess
-
-You have intercepted a (server.crt) from a suspicious server. We've also discovered a server.key file that could serve multiple purposes. Search for anomalies within it that might be the flag you're looking for.
-
