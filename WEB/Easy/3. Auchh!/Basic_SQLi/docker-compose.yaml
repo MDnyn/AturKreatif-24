@@ -4,8 +4,8 @@ version: "3"
 services:
   
   DrInject:
-    container_name: drinject
-    image: dr
+    container_name: dr-inject
+    image: dr-i
     build: .
     ports:
       - 8013:80
