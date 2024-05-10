@@ -30,8 +30,10 @@ Set `http` as filter.
 
 Check for `GET` method to see what file that being downloaded.
 
-Now we know that there is file that being downloaded using `http`, so we go to `File > Export Objects > HTTP`. You will see a file named `index.zip` from ip `192.168.22.79:8000`. Click `Save`. Now locate the zip file and unzip it. 
+Now we know that there is file that being downloaded using `http`, so we go to `File > Export Objects > HTTP`. You will see a file named `index.zip` from ip `192.168.22.79:8000`. Click `Save`. Now locate the zip file and unzip it. It will prompt for password, use `binwalk -e index.zip`. 
 
-Next step, run it :)  
+Then, `cd _index.zip.extracted` and `zip2john 0.zip > hash.txt`. Next, use `john hash.txt` and you will get the zip file password. Extract it `unzip index.zip` and you will get `index.exe`. Remember that this is malware and malware mostly target windows operating system only. So, we need to run the .exe file only on windows. If you use kali, that's for static analysis and most malware analysis's tools available for windows instead of kali.
 
- PS: This is malware analysis so make sure to turn off real-time protection in `Windows Security > Virus & Threat Protection Settings > Manage Settings > Turn off Real-time Protection` first before running the .exe
+Last step, run it :)  
+
+ PS: This is malware analysis so make sure to turn off real-time protection in `Windows Security > Virus & Threat Protection Settings > Manage Settings > Turn off Real-time Protection` first before running the .exe if you are doing dynamic analysis.
