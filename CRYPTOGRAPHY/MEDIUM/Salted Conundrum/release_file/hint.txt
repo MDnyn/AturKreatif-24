@@ -1,5 +1,0 @@
-hint:
-
-1: Have you explored the capabilities of tools provided by OpenSSL?
-2: OpenSSL's enc command with the -d option is used for decryption. Remember to use the -k option followed by the passphrase to specify the passphrase for decryption. 
-3: use the -pbkdf2 -md sha256 options to ensure a secure key derivation process.
