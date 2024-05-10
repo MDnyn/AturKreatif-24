@@ -1,3 +1,5 @@
+Scenario: Embark on a journey through an airplane tracking website where a misplaced fragment in the database at an undisclosed destination. Your mission: employ SQL injection techniques to uncover this hidden clue and reveal the path less traveled.
+
 ## *SQLi Sleuth*
 
 ***
