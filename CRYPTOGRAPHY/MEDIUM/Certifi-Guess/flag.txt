@@ -1,0 +1,2 @@
+flag1: 4turkr34tif24{You_Encrypted_Your_Success!}
+flag2: 4turkr34tif24{You_Cert-ainly_Nailed_It!}

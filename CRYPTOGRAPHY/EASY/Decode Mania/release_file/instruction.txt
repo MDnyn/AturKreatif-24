@@ -1,0 +1,2 @@
+You've come across a mysterious file named "confidential_data.txt" during a routine security audit of a company's servers. Upon opening the file, you discover it contains encrypted login credentials for sensitive systems. Your task is to decrypt the credentials and uncover the secrets hidden within.
+
