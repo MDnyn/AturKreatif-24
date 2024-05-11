@@ -54,7 +54,7 @@ if(isset($_COOKIE['JWT'])) {
         </body>
         </html>';
         // You should consider additional checks to prevent JWT replay attacks and other security vulnerabilities
-    } elseif($payload['role'] === 'admin') {
+    } elseif ($payload['role'] === 'admin' && !hash_equals($signature, $expectedSignature)){
         // If role is Jinbei but signature is invalid, display message
         echo'<!DOCTYPE html>
         <html>
@@ -93,8 +93,53 @@ if(isset($_COOKIE['JWT'])) {
           <script src="script.js"></script>
         </body>
         </html>';
-    };
-} else {
+    } elseif($payload['role'] === 'user') {
+      echo '<!DOCTYPE html>
+        <html>
+        <head>
+            <title>JWT?</title>
+        <!-- my sign is: dudududu -->
+        <!-- I put here becase I always forgot my sign teehee -->
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" type="text/css" href="styles.css">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+          <style>
+            body,h1 {font-family: "Raleway", sans-serif}
+            body, html {height: 100%}
+            .bgimg {
+              background-image: url("JaWsT.jpeg");
+              min-height: 100%;
+              background-position: center;
+              background-size: cover;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+            <div class="w3-display-topleft w3-padding-large w3-xlarge">
+              <img src="logo.png" alt="Logo" style="width: 12%;">
+                </div>
+                <div class="w3-display-middle">
+            <h2 class="w3-jumbo w3-animate-top" style="text-align: center; color: white;">Only admin get the flag</h2>
+            <hr class="w3-border-black" style="margin:auto;width:100%">
+            <p class="w3-large w3-center" style="color: white;">Have you guys gone to Universal Studio Japan? There is this attraction called JaWs. Check it out here</p>
+            <p class="w3-xlarge" style="text-align: center;">
+                <form action="https://www.youtube.com/watch?v=ILNWBtPxcro" method="post" target="_blank">
+                    <button type="submit" class="w3-button w3-round w3-black w3-opacity w3-hover-opacity-off" style="padding:8px 60px; margin: 0 auto; display: block;">Flag</button>
+                </form>
+            </p>
+            </p>   
+        </div>
+                <div class="w3-display-bottomleft w3-padding-large">
+                <a style="color: white;">Made by MDnyn</a>
+              </div>
+          </div>
+          <script src="script.js"></script>
+        </body>
+        </html>';
+    } else {
     // If JWT cookie is not set, generate JWT and set cookie
     $jwt = generateJWT(['role' => 'user'], $secret);
     setcookie('JWT', $jwt, time() + (86400 * 30), "/"); // Set cookie for 30 days
@@ -143,6 +188,7 @@ if(isset($_COOKIE['JWT'])) {
       <script src="script.js"></script>
     </body>
     </html>';
+}
 }
 
 // Function to encode JWT

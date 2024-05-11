@@ -3,13 +3,14 @@ version: "3"
 
 services:
   
-  new-easy:
-    container_name: after-easy
-    image: after
+  peasy:
+    container_name: easy
+    image: q4-i
     build: .
     ports:
-      - 8300:80
+      - 8330:80
     restart: always
 
     volumes:
       - ./src:/var/www/html
+
