@@ -1,0 +1,2 @@
+hint: Consider which decoding method would present the text in little-endian byte order.
+hint2: Think of a shift where the halfway point of 26 letters plays a crucial role
