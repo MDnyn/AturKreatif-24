@@ -1,2 +1,0 @@
-Hint1: the flag is encrypted using a symmetric encryption algorithm.
-Hint2: Ever heard of Fernet? 
